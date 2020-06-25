@@ -8,31 +8,44 @@ namespace ChrisDB.Helpers
 {
 	public static class StringHelpers
 	{
-		public static List<List<string>> GetMatchesAndGroups(string value, string regex)
+		public static List<List<string>> GetMatchesAndGroups(string value, string regex, bool getMatchSelf = false)
 		{
-			Regex r = new Regex(regex);
+			
 			List<List<string>> retVal = new List<List<string>>();
 
-			var matches = r.Match(value);
-			var count = matches.Captures.Count;
+			var matches = Regex.Matches(value, regex);
+			
+			var count = matches.Count;
 			for (int i = 0; i < count; i++)
 			{
-				GroupCollection match;
-				if (i == 0)
-					match = matches.Groups;
-				else
-					match = matches.NextMatch().Groups;
+				var match = matches[i];
+				
 				retVal.Add(new List<string>());
 
-				for(int b = 0; b < match.Count; b++)
+				for (int b = 0; b < match.Groups.Count; b++)
 				{
-					if (b == 0)
+					if (b == 0 && !getMatchSelf)
 						continue;
-					retVal[retVal.Count - 1].Add(match[b].ToString());
+					//Console.WriteLine("DICIDCK " + match.Groups[b]);
+					retVal[retVal.Count - 1].Add(match.Groups[b].ToString());
 				}
 			}
 
 			return retVal;
+		}
+		public static List<string> GetGroups(string value, string regex, bool getMatchSelf = false)
+		{
+			return GetMatchesAndGroups(value, regex, getMatchSelf)[0];
+		}
+		public static List<string> GetMatches(string value, string regex)
+		{
+			List<string> retval = new List<string>();
+			var b = GetMatchesAndGroups(value, regex, true);
+
+			foreach (var item in b)
+				retval.Add(item[0]);
+
+			return retval;
 		}
 		public static byte[] ToByteArray(this string value, Encoding encoding = null)
 		{

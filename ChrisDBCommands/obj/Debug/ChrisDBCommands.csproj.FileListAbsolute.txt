@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\bin\Debug\ChrisDBCommands.exe.config
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\bin\Debug\ChrisDBCommands.exe
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\bin\Debug\ChrisDBCommands.pdb
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\obj\Debug\ChrisDBCommands.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\obj\Debug\ChrisDBCommands.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\obj\Debug\ChrisDBCommands.exe
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBCommands\obj\Debug\ChrisDBCommands.pdb

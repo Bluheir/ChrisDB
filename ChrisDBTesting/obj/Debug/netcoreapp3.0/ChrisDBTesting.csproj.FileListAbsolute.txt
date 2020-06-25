@@ -1,0 +1,31 @@
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.AssemblyInfo.cs
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.exe
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.deps.json
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.runtimeconfig.json
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.runtimeconfig.dev.json
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.dll
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.pdb
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDB.dll
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDB.pdb
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csproj.CopyComplete
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.dll
+C:\Users\User\source\repos\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.pdb
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.exe
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.deps.json
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.runtimeconfig.json
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.runtimeconfig.dev.json
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.dll
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDBTesting.pdb
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDB.dll
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\ChrisDB.pdb
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.AssemblyInfo.cs
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.csproj.CopyComplete
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.dll
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\obj\Debug\netcoreapp3.0\ChrisDBTesting.pdb
+C:\Users\User\Desktop\Main Folder\ChrisDB\ChrisDBTesting\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
