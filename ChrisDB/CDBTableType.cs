@@ -8,15 +8,19 @@ namespace ChrisDB
 	{
 		[JsonProperty("properties")]
 		private Dictionary<string, string> propertiesString;
+		[JsonProperty("partition_key")]
+		private HashSet<string> partitionKey;
+		[JsonProperty("clustering_key")]
+		private HashSet<string> clusteringKey;
 
 		[JsonIgnore]
 		public IReadOnlyDictionary<string, CDBPropertyType> Properties { get; }
 		[JsonIgnore]
 		public IReadOnlyDictionary<string, string> PropertiesString => propertiesString;
-		[JsonProperty("partition_key")]
-		public HashSet<string> PartitionKey { get; private set; }
-		[JsonProperty("clustering_key")]
-		public HashSet<string> ClusteringKey { get; private set; }
+		[JsonIgnore]
+		public IReadOnlyList<string> PartitionKey => (IReadOnlyList<string>)partitionKey;
+		[JsonIgnore]
+		public IReadOnlyList<string> ClusteringKey => (IReadOnlyList<string>)clusteringKey;
 		[JsonProperty("asc_or_desc")]
 		public string AscOrDesc { get; private set; }
 		[JsonProperty("table_name")]
@@ -66,8 +70,8 @@ namespace ChrisDB
 					ctype |= CDBPropertyType.Nullable;
 			}
 
-			PartitionKey = new HashSet<string>(partition);
-			ClusteringKey = new HashSet<string>(clustering);
+			partitionKey = new HashSet<string>(partition);
+			clusteringKey = new HashSet<string>(clustering);
 
 			AscOrDesc = ascorDesc;
 		}
@@ -77,8 +81,8 @@ namespace ChrisDB
 			propertiesString = FromProperties(properties);
 			Properties = properties;
 
-			PartitionKey = new HashSet<string>(partition);
-			ClusteringKey = new HashSet<string>(clustering);
+			partitionKey = new HashSet<string>(partition);
+			clusteringKey = new HashSet<string>(clustering);
 
 			AscOrDesc = AscOrDesc;
 		}
@@ -93,7 +97,7 @@ namespace ChrisDB
 				CDBPropertyType a = item.Value;
 				bool nullable = false;
 				string type = "";
-
+				
 				if((int)a > 128)
 				{
 					a -= CDBPropertyType.Nullable;

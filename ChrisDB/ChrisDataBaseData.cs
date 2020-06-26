@@ -4,8 +4,8 @@ namespace ChrisDB
 {
 	public class ChrisDataBaseData
 	{
-		public object[] PartitionKey { get; }
-		public object[] ClusteringKey { get; }
+		public IReadOnlyList<string> PartitionKey { get; }
+		public IReadOnlyList<string> ClusteringKey { get; }
 		public IReadOnlyDictionary<string, object> Properties { get; }
 
 		public ChrisDataBaseData(object[] partition, object[] clustering, IReadOnlyDictionary<string, object> props)
